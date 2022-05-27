@@ -12,9 +12,9 @@ jQuery(document).ready(function () {
      * @property {string} stringsElement ID of element containing string children
      */
     strings: [
-      "I am <strong class = 'slider-name1' >Abhishek Jaiswal.</strong>",
-      "I am a <strong class = 'slider-name2' >Programmer.</strong>",
-      "I am a <strong class = 'slider-name2' >Developer.</strong>",
+      "I am <strong class = 'webdev' >Abhishek Jaiswal.</strong>",
+      "I am a <strong class = 'socod' >Programmer.</strong>",
+      "I am a <strong class = 'socod' >Developer.</strong>",
     ],
     stringsElement: null,
 
