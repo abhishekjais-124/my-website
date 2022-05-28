@@ -1,6 +1,8 @@
 @import "heading.css";
 @import "cards-rainbow.css";
 @import "text-effect.css";
+@import "projects.css";
+@import "education.css";
 
 body{
   background-color: #080812;

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+
+.single-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  transition: all 0.5s;
+  background: #010615;
+}
+.single-card:hover {
+  height: 400px;
+}
+.single-card:hover .content {
+  opacity: 1;
+}
+.single-card:hover .card-img img {
+  opacity: 1;
+}
+.single-card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: white;
+  z-index: -1;
+  background: linear-gradient(45deg, #ff05ac 0%, #ff05ac 18%, aqua 100%);
+  /* w3c */
+}
+.single-card::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: white;
+  z-index: -2;
+  filter: blur(40px);
+  background: linear-gradient(45deg, #ff05ac 0%, #ff05ac 18%, aqua 100%);
+  /* w3c */
+}
+.single-card .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.single-card .card-img img {
+  max-width: 100%;
+  opacity: 0.1;
+  transition: 0.5s;
+  height: 280px;
+}
+.single-card .content {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-card .content .title {
+  font-size: 28px;
+  line-height: 10px;
+}
