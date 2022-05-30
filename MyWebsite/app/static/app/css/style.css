@@ -3,6 +3,7 @@
 @import "text-effect.css";
 @import "projects.css";
 @import "education.css";
+@import "skills.css";
 
 body{
   background-color: #080812;
@@ -177,3 +178,4 @@ a.cta:hover:after {
   color: #d35400;
   transform: rotateY(180deg) scale(1.5);
 }
+
