@@ -26,7 +26,10 @@
     <script type="text/javascript" src="{% static 'app/js/respond.js' %}"></script>
   </head>
   <body>
-    
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div id="progressbar2" style="left: 0px;"></div>
+    <div id="scrollPath2" style="left: 0px;"></div>
     {% include "app/header.html" %}
 
     <section class="slider center white" id="slider">
@@ -53,6 +56,11 @@
     <!-- My skills -->
     {% include "app/skills.html" %}
 
+    <!-- My Special Counts -->
+    {% include "app/counts.html" %}
+
+    
+
 
     
     <script type="text/javascript" src="{% static 'app/js/bootstrap.min.js' %}"></script>
@@ -61,6 +69,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script type="text/javascript" src="{% static 'app/js/main.js' %}"></script>
     <script type="text/javascript" src="{% static 'app/js/skills.js' %}"></script>
+    <script type="text/javascript" src="{% static 'app/js/counts.js' %}"></script>
   </body>
   
 </html>

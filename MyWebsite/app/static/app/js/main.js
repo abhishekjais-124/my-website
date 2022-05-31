@@ -1,6 +1,16 @@
 jQuery(document).ready(function () {
   "use strict";
 
+  let progress = document.getElementById('progressbar');
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
+  let progress2 = document.getElementById('progressbar2');
+  window.onscroll = function(){
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+    progress2.style.height = progressHeight + "%";
+  }
+
+
   $(".slider").ripples({
     dropRadius: 10,
     perturbance: 0.01,

@@ -14,6 +14,17 @@ jQuery(document).ready(function () {
           $(".html-circle6").addClass("circle-anime6");
           $(".html-circle7").addClass("circle-anime7");
           $(".html-circle8").addClass("circle-anime8");
+        }
+        // else if(top < 2000) {
+        //   $(".html-circle1").removeClass("circle-anime1");
+        //   $(".html-circle2").removeClass("circle-anime2");
+        //   $(".html-circle3").removeClass("circle-anime3");
+        //   $(".html-circle4").removeClass("circle-anime4");
+        //   $(".html-circle5").removeClass("circle-anime5");
+        //   $(".html-circle6").removeClass("circle-anime6");
+        //   $(".html-circle7").removeClass("circle-anime7");
+        //   $(".html-circle8").removeClass("circle-anime8");
+        // }
 
             // let number = document.getElementById("number");
             // let counter = 0;
@@ -33,7 +44,7 @@ jQuery(document).ready(function () {
             //     // number.innerHTML = "HTML " + counter + "%";
             //   }
             // }, 30);
-        } 
+        
       });
 }); 
 
