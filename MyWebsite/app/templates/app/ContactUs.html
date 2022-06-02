@@ -27,8 +27,8 @@
     <section class="webdesigntuts-workshop">
         <form action="/send" method="post">
             {% csrf_token %}
-          <input type="search" placeholder="Your Name">         
-          <input type="search" placeholder="Your Message For Me" style="margin-left: 5px;margin-right:5px; width:700px">          
+          <input type="search" placeholder="Your Name" name="sname">         
+          <input type="search" placeholder="Your Message For Me" style="margin-left: 5px;margin-right:5px; width:700px" name="message">          
           <button type="submit" class="glow-on-hover">Send</button>
         </form>
       </section>
